@@ -12,6 +12,23 @@
       <FILE id="FhpjU0" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="MhkscJ" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="uk3pQp" name="synthVoice.h" compile="0" resource="0" file="Source/synthVoice.h"/>
+      <FILE id="uJtUaw" name="synthVoice.cpp" compile="1" resource="0" file="Source/synthVoice.cpp"/>
+      <FILE id="BFCXrG" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <GROUP id="{8600BA65-30DE-1AF7-E9FF-C2E7637E91B9}" name="UI">
+        <FILE id="SyzsKq" name="adsrComponent.cpp" compile="1" resource="0"
+              file="Source/UI/adsrComponent.cpp"/>
+        <FILE id="slAX93" name="adsrComponent.h" compile="0" resource="0" file="Source/UI/adsrComponent.h"/>
+        <FILE id="HwhCos" name="oscComponent.cpp" compile="1" resource="0"
+              file="Source/UI/oscComponent.cpp"/>
+        <FILE id="kMZ250" name="oscComponent.h" compile="0" resource="0" file="Source/UI/oscComponent.h"/>
+      </GROUP>
+      <GROUP id="{B5EB955B-8280-B86C-735A-FDA6B4D39DE7}" name="Data">
+        <FILE id="MDKwDM" name="oscData.cpp" compile="1" resource="0" file="Source/Data/oscData.cpp"/>
+        <FILE id="yrwrg8" name="oscData.h" compile="0" resource="0" file="Source/Data/oscData.h"/>
+        <FILE id="u2Lwq2" name="adsrData.cpp" compile="1" resource="0" file="Source/Data/adsrData.cpp"/>
+        <FILE id="CLRcsN" name="adsrData.h" compile="0" resource="0" file="Source/Data/adsrData.h"/>
+      </GROUP>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
@@ -54,4 +71,7 @@
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
 </JUCERPROJECT>
