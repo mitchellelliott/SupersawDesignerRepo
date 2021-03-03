@@ -32,32 +32,32 @@
 		24D85DB327FE70BE8205C207 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AEC0AAC397499A45929BC3 /* IOKit.framework */; };
 		275F92F82D92150E1AEA53AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321E54F40CAAB6CDE188B6C3 /* Foundation.framework */; };
 		2F872498B111105E3175E09F /* include_juce_data_structures.mm in Sources */ = {isa = PBXBuildFile; fileRef = D161C451A040794083D3FFAA /* include_juce_data_structures.mm */; };
-		3002C89B25EEB0F600F4272B /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4038BC4DFE58240B1B04A289 /* RecentFilesMenuTemplate.nib */; };
-		3002C89C25EEB0F600F4272B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C5DBDF867B5C10952255BF /* Accelerate.framework */; };
-		3002C89D25EEB0F600F4272B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75883A83FD3D350CF10C0547 /* AudioToolbox.framework */; };
-		3002C89E25EEB0F600F4272B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FF5292F2529B4275F46FCC /* Carbon.framework */; };
-		3002C89F25EEB0F600F4272B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F6BDE5591D776FC75022FA /* Cocoa.framework */; };
-		3002C8A025EEB0F600F4272B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF08E863EE341989E3696A /* CoreAudio.framework */; };
-		3002C8A125EEB0F600F4272B /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1E3B6DE497D70CD90E37F3 /* CoreAudioKit.framework */; };
-		3002C8A225EEB0F600F4272B /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF31D044A392CF27A2281C6 /* CoreMIDI.framework */; };
-		3002C8A325EEB0F600F4272B /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C17D76EEF720E2CC02EF9E7 /* DiscRecording.framework */; };
-		3002C8A425EEB0F600F4272B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321E54F40CAAB6CDE188B6C3 /* Foundation.framework */; };
-		3002C8A525EEB0F600F4272B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AEC0AAC397499A45929BC3 /* IOKit.framework */; };
-		3002C8A625EEB0F600F4272B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327420C8BE320C762FD17812 /* QuartzCore.framework */; };
-		3002C8A725EEB0F600F4272B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B7F1039612803589AD893E /* WebKit.framework */; };
-		3002C8A825EEB0F600F4272B /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4038BC4DFE58240B1B04A289 /* RecentFilesMenuTemplate.nib */; };
-		3002C8A925EEB0F600F4272B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C5DBDF867B5C10952255BF /* Accelerate.framework */; };
-		3002C8AA25EEB0F600F4272B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75883A83FD3D350CF10C0547 /* AudioToolbox.framework */; };
-		3002C8AB25EEB0F600F4272B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FF5292F2529B4275F46FCC /* Carbon.framework */; };
-		3002C8AC25EEB0F600F4272B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F6BDE5591D776FC75022FA /* Cocoa.framework */; };
-		3002C8AD25EEB0F600F4272B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF08E863EE341989E3696A /* CoreAudio.framework */; };
-		3002C8AE25EEB0F600F4272B /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1E3B6DE497D70CD90E37F3 /* CoreAudioKit.framework */; };
-		3002C8AF25EEB0F600F4272B /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF31D044A392CF27A2281C6 /* CoreMIDI.framework */; };
-		3002C8B025EEB0F600F4272B /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C17D76EEF720E2CC02EF9E7 /* DiscRecording.framework */; };
-		3002C8B125EEB0F600F4272B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321E54F40CAAB6CDE188B6C3 /* Foundation.framework */; };
-		3002C8B225EEB0F600F4272B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AEC0AAC397499A45929BC3 /* IOKit.framework */; };
-		3002C8B325EEB0F600F4272B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327420C8BE320C762FD17812 /* QuartzCore.framework */; };
-		3002C8B425EEB0F600F4272B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B7F1039612803589AD893E /* WebKit.framework */; };
+		308CB8B225F0098300A9BC9B /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4038BC4DFE58240B1B04A289 /* RecentFilesMenuTemplate.nib */; };
+		308CB8B325F0098300A9BC9B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C5DBDF867B5C10952255BF /* Accelerate.framework */; };
+		308CB8B425F0098300A9BC9B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75883A83FD3D350CF10C0547 /* AudioToolbox.framework */; };
+		308CB8B525F0098300A9BC9B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FF5292F2529B4275F46FCC /* Carbon.framework */; };
+		308CB8B625F0098300A9BC9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F6BDE5591D776FC75022FA /* Cocoa.framework */; };
+		308CB8B725F0098300A9BC9B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF08E863EE341989E3696A /* CoreAudio.framework */; };
+		308CB8B825F0098300A9BC9B /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1E3B6DE497D70CD90E37F3 /* CoreAudioKit.framework */; };
+		308CB8B925F0098300A9BC9B /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF31D044A392CF27A2281C6 /* CoreMIDI.framework */; };
+		308CB8BA25F0098300A9BC9B /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C17D76EEF720E2CC02EF9E7 /* DiscRecording.framework */; };
+		308CB8BB25F0098300A9BC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321E54F40CAAB6CDE188B6C3 /* Foundation.framework */; };
+		308CB8BC25F0098300A9BC9B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AEC0AAC397499A45929BC3 /* IOKit.framework */; };
+		308CB8BD25F0098300A9BC9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327420C8BE320C762FD17812 /* QuartzCore.framework */; };
+		308CB8BE25F0098300A9BC9B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B7F1039612803589AD893E /* WebKit.framework */; };
+		308CB8BF25F0098300A9BC9B /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4038BC4DFE58240B1B04A289 /* RecentFilesMenuTemplate.nib */; };
+		308CB8C025F0098300A9BC9B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C5DBDF867B5C10952255BF /* Accelerate.framework */; };
+		308CB8C125F0098300A9BC9B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75883A83FD3D350CF10C0547 /* AudioToolbox.framework */; };
+		308CB8C225F0098300A9BC9B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FF5292F2529B4275F46FCC /* Carbon.framework */; };
+		308CB8C325F0098300A9BC9B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F6BDE5591D776FC75022FA /* Cocoa.framework */; };
+		308CB8C425F0098300A9BC9B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF08E863EE341989E3696A /* CoreAudio.framework */; };
+		308CB8C525F0098300A9BC9B /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1E3B6DE497D70CD90E37F3 /* CoreAudioKit.framework */; };
+		308CB8C625F0098300A9BC9B /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF31D044A392CF27A2281C6 /* CoreMIDI.framework */; };
+		308CB8C725F0098300A9BC9B /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C17D76EEF720E2CC02EF9E7 /* DiscRecording.framework */; };
+		308CB8C825F0098300A9BC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321E54F40CAAB6CDE188B6C3 /* Foundation.framework */; };
+		308CB8C925F0098300A9BC9B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AEC0AAC397499A45929BC3 /* IOKit.framework */; };
+		308CB8CA25F0098300A9BC9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327420C8BE320C762FD17812 /* QuartzCore.framework */; };
+		308CB8CB25F0098300A9BC9B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B7F1039612803589AD893E /* WebKit.framework */; };
 		3877231B553905C5968A05DF /* include_juce_audio_plugin_client_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C62765A5D04BBE603EC95E34 /* include_juce_audio_plugin_client_utils.cpp */; };
 		3DA7A7648C93E8E691C386DC /* include_juce_audio_plugin_client_AU_2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4891FFDBAEEB9412CE1C57BA /* include_juce_audio_plugin_client_AU_2.mm */; };
 		3F63E31CC3505F4760A93AEC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF08E863EE341989E3696A /* CoreAudio.framework */; };
@@ -93,49 +93,49 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3002C8B525EEB0F700F4272B /* PBXContainerItemProxy */ = {
+		308CB8CC25F0098600A9BC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7713A0F223B3011267F33D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A3C9B24B5A0FDADADF462D90;
 			remoteInfo = "SupersawDesignerPrototype - Shared Code";
 		};
-		3002C8B625EEB0F700F4272B /* PBXContainerItemProxy */ = {
+		308CB8CD25F0098800A9BC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7713A0F223B3011267F33D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A3C9B24B5A0FDADADF462D90;
 			remoteInfo = "SupersawDesignerPrototype - Shared Code";
 		};
-		3002C8B725EEB0F700F4272B /* PBXContainerItemProxy */ = {
+		308CB8CE25F0098800A9BC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7713A0F223B3011267F33D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A3C9B24B5A0FDADADF462D90;
 			remoteInfo = "SupersawDesignerPrototype - Shared Code";
 		};
-		3002C8B825EEB0F700F4272B /* PBXContainerItemProxy */ = {
+		308CB8CF25F0098800A9BC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7713A0F223B3011267F33D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A6B15C399673480E1717ED6A;
 			remoteInfo = "SupersawDesignerPrototype - VST3";
 		};
-		3002C8B925EEB0F700F4272B /* PBXContainerItemProxy */ = {
+		308CB8D025F0098800A9BC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7713A0F223B3011267F33D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CCAD42E83B30F2C5CF1EFB89;
 			remoteInfo = "SupersawDesignerPrototype - AU";
 		};
-		3002C8BA25EEB0F700F4272B /* PBXContainerItemProxy */ = {
+		308CB8D125F0098800A9BC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7713A0F223B3011267F33D4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9B2542E717DB780463991AA1;
 			remoteInfo = "SupersawDesignerPrototype - Standalone Plugin";
 		};
-		3002C8BB25EEB0F700F4272B /* PBXContainerItemProxy */ = {
+		308CB8D225F0098800A9BC9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7713A0F223B3011267F33D4 /* Project object */;
 			proxyType = 1;
@@ -222,18 +222,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3002C8A925EEB0F600F4272B /* Accelerate.framework in Frameworks */,
-				3002C8AA25EEB0F600F4272B /* AudioToolbox.framework in Frameworks */,
-				3002C8AB25EEB0F600F4272B /* Carbon.framework in Frameworks */,
-				3002C8AC25EEB0F600F4272B /* Cocoa.framework in Frameworks */,
-				3002C8AD25EEB0F600F4272B /* CoreAudio.framework in Frameworks */,
-				3002C8AE25EEB0F600F4272B /* CoreAudioKit.framework in Frameworks */,
-				3002C8AF25EEB0F600F4272B /* CoreMIDI.framework in Frameworks */,
-				3002C8B025EEB0F600F4272B /* DiscRecording.framework in Frameworks */,
-				3002C8B125EEB0F600F4272B /* Foundation.framework in Frameworks */,
-				3002C8B225EEB0F600F4272B /* IOKit.framework in Frameworks */,
-				3002C8B325EEB0F600F4272B /* QuartzCore.framework in Frameworks */,
-				3002C8B425EEB0F600F4272B /* WebKit.framework in Frameworks */,
+				308CB8C025F0098300A9BC9B /* Accelerate.framework in Frameworks */,
+				308CB8C125F0098300A9BC9B /* AudioToolbox.framework in Frameworks */,
+				308CB8C225F0098300A9BC9B /* Carbon.framework in Frameworks */,
+				308CB8C325F0098300A9BC9B /* Cocoa.framework in Frameworks */,
+				308CB8C425F0098300A9BC9B /* CoreAudio.framework in Frameworks */,
+				308CB8C525F0098300A9BC9B /* CoreAudioKit.framework in Frameworks */,
+				308CB8C625F0098300A9BC9B /* CoreMIDI.framework in Frameworks */,
+				308CB8C725F0098300A9BC9B /* DiscRecording.framework in Frameworks */,
+				308CB8C825F0098300A9BC9B /* Foundation.framework in Frameworks */,
+				308CB8C925F0098300A9BC9B /* IOKit.framework in Frameworks */,
+				308CB8CA25F0098300A9BC9B /* QuartzCore.framework in Frameworks */,
+				308CB8CB25F0098300A9BC9B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,18 +261,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C4C94E8531B4EC6DB71732 /* AudioUnit.framework in Frameworks */,
-				3002C89C25EEB0F600F4272B /* Accelerate.framework in Frameworks */,
-				3002C89D25EEB0F600F4272B /* AudioToolbox.framework in Frameworks */,
-				3002C89E25EEB0F600F4272B /* Carbon.framework in Frameworks */,
-				3002C89F25EEB0F600F4272B /* Cocoa.framework in Frameworks */,
-				3002C8A025EEB0F600F4272B /* CoreAudio.framework in Frameworks */,
-				3002C8A125EEB0F600F4272B /* CoreAudioKit.framework in Frameworks */,
-				3002C8A225EEB0F600F4272B /* CoreMIDI.framework in Frameworks */,
-				3002C8A325EEB0F600F4272B /* DiscRecording.framework in Frameworks */,
-				3002C8A425EEB0F600F4272B /* Foundation.framework in Frameworks */,
-				3002C8A525EEB0F600F4272B /* IOKit.framework in Frameworks */,
-				3002C8A625EEB0F600F4272B /* QuartzCore.framework in Frameworks */,
-				3002C8A725EEB0F600F4272B /* WebKit.framework in Frameworks */,
+				308CB8B325F0098300A9BC9B /* Accelerate.framework in Frameworks */,
+				308CB8B425F0098300A9BC9B /* AudioToolbox.framework in Frameworks */,
+				308CB8B525F0098300A9BC9B /* Carbon.framework in Frameworks */,
+				308CB8B625F0098300A9BC9B /* Cocoa.framework in Frameworks */,
+				308CB8B725F0098300A9BC9B /* CoreAudio.framework in Frameworks */,
+				308CB8B825F0098300A9BC9B /* CoreAudioKit.framework in Frameworks */,
+				308CB8B925F0098300A9BC9B /* CoreMIDI.framework in Frameworks */,
+				308CB8BA25F0098300A9BC9B /* DiscRecording.framework in Frameworks */,
+				308CB8BB25F0098300A9BC9B /* Foundation.framework in Frameworks */,
+				308CB8BC25F0098300A9BC9B /* IOKit.framework in Frameworks */,
+				308CB8BD25F0098300A9BC9B /* QuartzCore.framework in Frameworks */,
+				308CB8BE25F0098300A9BC9B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,7 +648,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3002C89B25EEB0F600F4272B /* RecentFilesMenuTemplate.nib in Resources */,
+				308CB8B225F0098300A9BC9B /* RecentFilesMenuTemplate.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,7 +656,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3002C8A825EEB0F600F4272B /* RecentFilesMenuTemplate.nib in Resources */,
+				308CB8BF25F0098300A9BC9B /* RecentFilesMenuTemplate.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,37 +741,37 @@
 		05DC151DCE92EE8B407E52D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A3C9B24B5A0FDADADF462D90 /* SupersawDesignerPrototype - Shared Code */;
-			targetProxy = 3002C8B725EEB0F700F4272B /* PBXContainerItemProxy */;
+			targetProxy = 308CB8CD25F0098800A9BC9B /* PBXContainerItemProxy */;
 		};
 		0E9566A5EE024F067F7454E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A3C9B24B5A0FDADADF462D90 /* SupersawDesignerPrototype - Shared Code */;
-			targetProxy = 3002C8B525EEB0F700F4272B /* PBXContainerItemProxy */;
+			targetProxy = 308CB8CE25F0098800A9BC9B /* PBXContainerItemProxy */;
 		};
 		532872653278FD620BA44647 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A6B15C399673480E1717ED6A /* SupersawDesignerPrototype - VST3 */;
-			targetProxy = 3002C8B825EEB0F700F4272B /* PBXContainerItemProxy */;
+			targetProxy = 308CB8CF25F0098800A9BC9B /* PBXContainerItemProxy */;
 		};
 		C3933C6721C81C6B840969DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CCAD42E83B30F2C5CF1EFB89 /* SupersawDesignerPrototype - AU */;
-			targetProxy = 3002C8B925EEB0F700F4272B /* PBXContainerItemProxy */;
+			targetProxy = 308CB8D025F0098800A9BC9B /* PBXContainerItemProxy */;
 		};
 		E75EE4E16D58E66E114B464E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A3C9B24B5A0FDADADF462D90 /* SupersawDesignerPrototype - Shared Code */;
-			targetProxy = 3002C8B625EEB0F700F4272B /* PBXContainerItemProxy */;
+			targetProxy = 308CB8CC25F0098600A9BC9B /* PBXContainerItemProxy */;
 		};
 		E76267115A210E9C3F2E586C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9B2542E717DB780463991AA1 /* SupersawDesignerPrototype - Standalone Plugin */;
-			targetProxy = 3002C8BA25EEB0F700F4272B /* PBXContainerItemProxy */;
+			targetProxy = 308CB8D125F0098800A9BC9B /* PBXContainerItemProxy */;
 		};
 		ECD0CC3557E91085514FF860 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A3C9B24B5A0FDADADF462D90 /* SupersawDesignerPrototype - Shared Code */;
-			targetProxy = 3002C8BB25EEB0F700F4272B /* PBXContainerItemProxy */;
+			targetProxy = 308CB8D225F0098800A9BC9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -826,8 +826,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -835,15 +835,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -851,10 +851,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
@@ -935,8 +935,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -944,15 +944,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -960,10 +960,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
@@ -1045,8 +1045,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -1054,15 +1054,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -1070,10 +1070,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
@@ -1163,8 +1163,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -1172,15 +1172,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -1188,10 +1188,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
@@ -1280,8 +1280,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -1289,15 +1289,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -1305,10 +1305,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
@@ -1396,8 +1396,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -1405,15 +1405,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -1421,10 +1421,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
@@ -1505,8 +1505,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -1514,15 +1514,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -1530,10 +1530,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
@@ -1672,8 +1672,8 @@
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x56397274",
-					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_IsSynth=1",
+					"JucePlugin_WantsMidiInput=1",
 					"JucePlugin_ProducesMidiOutput=0",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
@@ -1681,15 +1681,15 @@
 					"JucePlugin_VersionCode=0x10000",
 					"JucePlugin_VersionString=\\\"1.0.0\\\"",
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
-					"JucePlugin_VSTCategory=kPlugCategEffect",
-					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_VSTCategory=kPlugCategSynth",
+					"JucePlugin_Vst3Category=\\\"Instrument|Synth\\\"",
+					"JucePlugin_AUMainType='aumu'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=SupersawDesignerPrototypeAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"SupersawDesignerPrototypeAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_CFBundleIdentifier=com.yourcompany.SupersawDesignerPrototype",
-					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASCategory=2048",
 					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
 					"JucePlugin_RTASDisableBypass=0",
@@ -1697,10 +1697,10 @@
 					"JucePlugin_AAXIdentifier=com.yourcompany.SupersawDesignerPrototype",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
-					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXCategory=2048",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x61757269",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
 					"JucePlugin_IAAName=\\\"yourcompany:\\ SupersawDesignerPrototype\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",

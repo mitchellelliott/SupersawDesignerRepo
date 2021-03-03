@@ -18,6 +18,7 @@ OscComponent::OscComponent(juce::AudioProcessorValueTreeState& apvts, juce::Stri
     addAndMakeVisible (oscWaveSelector);
 
     oscWaveSelectorAttachment = std::make_unique<juce::AudioProcessorValueTreeState::ComboBoxAttachment>(apvts, waveSelectorId, oscWaveSelector);
+    
 }
 
 OscComponent::~OscComponent()
@@ -26,10 +27,11 @@ OscComponent::~OscComponent()
 
 void OscComponent::paint (juce::Graphics& g)
 {
-    g.fillAll(juce::Colours::black);
+    g.fillAll(juce::Colours::transparentBlack);
 }
 
 void OscComponent::resized()
 {
-    oscWaveSelector.setBounds(0,0,90,20);
+    oscWaveSelector.setBounds(0,0,150,75);
 }
+

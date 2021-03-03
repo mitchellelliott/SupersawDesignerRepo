@@ -56,6 +56,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
     
     juce::AudioProcessorValueTreeState apvts;
+    
+    float osc1Gain = 1.f;
 
 private:
     juce::Synthesiser synth;

@@ -163,9 +163,9 @@ void SupersawDesignerPrototypeAudioProcessor::processBlock (juce::AudioBuffer<fl
             
             auto& oscWaveChoice = *apvts.getRawParameterValue("OSC1WAVETYPE");
             
-            
             voice->update (attack.load(), decay.load(), sustain.load(), release.load());
             voice->getOscillator().setWaveType(oscWaveChoice);
+            
         }
     }
     
@@ -205,13 +205,15 @@ juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
     return new SupersawDesignerPrototypeAudioProcessor();
 }
 
-// Value Tree
+// Audio Processor Value Tree State
 juce::AudioProcessorValueTreeState::ParameterLayout SupersawDesignerPrototypeAudioProcessor::createParameters()
 {
     std::vector<std::unique_ptr<juce::RangedAudioParameter>> params;
     
-    // OSC Select
-    params.push_back(std::make_unique<juce::AudioParameterChoice>("OSC", "Oscillator", juce::StringArray { "Sine" , "Saw" , "Square" }, 0 ));
+    //Osc Select
+    params.push_back(std::make_unique<juce::AudioParameterChoice>("OSC1WAVETYPE", "Osc 1 Wave Type", juce::StringArray { "Sine" , "Saw" , "Square" }, 0));
+    
+    params.push_back(std::make_unique<juce::AudioParameterChoice>("OSC2WAVETYPE", "Osc 2 Wave Type", juce::StringArray { "Sine" , "Saw" , "Square" }, 0));
     
     //ADSR
     params.push_back (std::make_unique<juce::AudioParameterFloat>("ATTACK", "Attack", juce::NormalisableRange<float> { 0.1f, 1.0f, }, 0.1f));
@@ -219,7 +221,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout SupersawDesignerPrototypeAud
     params.push_back (std::make_unique<juce::AudioParameterFloat>("SUSTAIN", "Sustain", juce::NormalisableRange<float> { 0.1f, 1.0f, }, 0.1f));
     params.push_back (std::make_unique<juce::AudioParameterFloat>("RELEASE", "Release", juce::NormalisableRange<float> { 0.1f, 3.0f, }, 0.4f));
     
-    params.push_back(std::make_unique<juce::AudioParameterChoice>("OSC1WAVETYPE", "Osc 1 Wave Type", juce::StringArray { "Sine" , "Saw" , "Square" }, 0));
+
     
     
     

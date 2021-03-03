@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="v9RTJ4" name="SupersawDesignerPrototype" projectType="audioplug"
               useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
-              jucerFormatVersion="1">
+              jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
   <MAINGROUP id="r4utCT" name="SupersawDesignerPrototype">
     <GROUP id="{4FB74119-EAB2-F342-F767-07A864F921E1}" name="Source">
       <FILE id="FOi3Ek" name="PluginProcessor.cpp" compile="1" resource="0"
