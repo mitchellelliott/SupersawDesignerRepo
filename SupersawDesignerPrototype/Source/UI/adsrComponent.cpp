@@ -34,6 +34,13 @@ AdsrComponent::~AdsrComponent()
 void AdsrComponent::paint (juce::Graphics& g)
 {
     g.fillAll(juce::Colours::transparentBlack);
+    auto bounds = getLocalBounds();
+    g.setColour (juce::Colours::whitesmoke);
+    g.drawRoundedRectangle(bounds.toFloat().reduced (5.0f), 5.0f, 2.0f);
+    
+    g.setColour (juce::Colours::goldenrod);
+    g.setFont(15.0);
+    g.setFont (g.getCurrentFont().bold);
 }
 
 void AdsrComponent::resized()
@@ -41,9 +48,9 @@ void AdsrComponent::resized()
     const auto bounds = getLocalBounds().reduced(10);
     const auto padding = 10;
     const auto sliderWidth = bounds.getWidth() / 4 - padding;
-    const auto sliderHeight = bounds.getHeight();
-    const auto sliderStartX = 0;
-    const auto sliderStartY = 0;
+    const auto sliderHeight = bounds.getHeight()- padding;
+    const auto sliderStartX = padding;
+    const auto sliderStartY = padding;
     
     attackSlider.setBounds(sliderStartX, sliderStartY, sliderWidth, sliderHeight);
     decaySlider.setBounds(attackSlider.getRight() + padding, sliderStartY, sliderWidth, sliderHeight);
@@ -55,6 +62,6 @@ void AdsrComponent::resized()
 void AdsrComponent::setSliderParams (juce::Slider& slider)
 {
     slider.setSliderStyle(juce::Slider::SliderStyle::LinearVertical);
-    slider.setTextBoxStyle(juce::Slider::TextBoxBelow, true, 50, 25);
+    slider.setTextBoxStyle(juce::Slider::TextBoxBelow, true, 60, 25);
     addAndMakeVisible(slider);
 }

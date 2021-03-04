@@ -58,7 +58,10 @@ public:
     juce::AudioProcessorValueTreeState apvts;
     
     float osc1Gain = 1.f;
-
+    float osc1Unison = 1.f;
+    float osc1Spread = 1.f;
+    float osc1Tune = 0.f;
+    
 private:
     juce::Synthesiser synth;
     juce::AudioProcessorValueTreeState::ParameterLayout createParameters();
