@@ -62,6 +62,11 @@ public:
     float osc1Spread = 1.f;
     float osc1Tune = 0.f;
     
+    float osc2Gain = 1.f;
+    float osc2Unison = 1.f;
+    float osc2Spread = 1.f;
+    float osc2Tune = 0.f;
+    
 private:
     juce::Synthesiser synth;
     juce::AudioProcessorValueTreeState::ParameterLayout createParameters();
